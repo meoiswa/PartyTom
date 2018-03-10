@@ -1,0 +1,9 @@
+## Interface: 70300
+## Title: Party TomTom
+## Notes: "Captures party 'way X Y' messages and inputs them into TomTom"
+## Dependencies: TomTom
+## Author: Meoiswa
+## Version: 0.1
+
+PartyTom.lua
+PartyTom.xml
