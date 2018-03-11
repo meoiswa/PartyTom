@@ -17,7 +17,7 @@ function PartyTom()
       local coords = string.match(match, coordsMatch)
       print("PartyTomFrame ["..origin.."]: /way "..coords)
       SlashCmdList["TOMTOM_WAY"](coords.." "..author.."("..origin..") #"..counter[author])
-      couter[author] = counter[author]+1
+      counter[author] = counter[author]+1
     end
   end
 
