@@ -3,7 +3,7 @@
 ## Notes: "Captures '/p' and '/s' 'way X Y' messages and inputs them into TomTom"
 ## Dependencies: TomTom
 ## Author: Meoiswa
-## Version: 1.0
+## Version: 1.1
 
 PartyTom.lua
 PartyTom.xml
