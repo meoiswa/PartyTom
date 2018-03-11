@@ -6,7 +6,7 @@ function PartyTom()
   end
 
   local counter = {}
-  local coordsMatch = "[0-9]?[0-9] [0-9]?[0-9]"
+  local coordsMatch = "[0-9]?[0-9](\.[0-9]?[0-9])? [0-9]?[0-9](\.[0-9]?[0-9])?"
 
   local function processMsg(origin,msg,author)
     if (counter[author] == nil) then
