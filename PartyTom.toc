@@ -1,9 +1,12 @@
-## Interface: 70300
+## Interface: 80000
 ## Title: Party TomTom
-## Notes: "Captures '/p' and '/s' 'way X Y' messages and inputs them into TomTom"
+## Notes: "Captures and inputs messages that contain coordinates into into TomTom"
+## SavedVariables: PartyTomDB
 ## Dependencies: TomTom
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
 ## Author: Meoiswa
-## Version: 1.1
+## Version: 2.0
 
-PartyTom.lua
-PartyTom.xml
+embeds.xml
+Core.lua
